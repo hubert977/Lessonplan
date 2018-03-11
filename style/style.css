@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-image: url('../img/background.jpg');
+
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/school.jpg');
+    background-size: 100%;
+    transition-duration: 1s;
+    position:relative;
+    left: 0%;
+    margin:0;
+}
+.sub_container
+{
+    width:85%;
+    height:80%;
+    left: 8%;
+}
+header
+{
+    width: 100%;
+    height: 11%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header p
+{
+    margin-left: 40%;
+    font-size: 60px;
+    transition-duration: 1s;
+
+}
+.pa
+{
+    margin-left: 37%;
+}
+.planner
+{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    transition-duration: 1s;
+    
+    
+}
+.planner_element
+{
+    width: 17%;
+    height: 420px;
+    background-color: aliceblue;
+    float: left;
+    border: 1px solid black;
+    opacity: 0.8;
+    text-align: center;
+    transition-duration: 1s;
+    color: grey;
+
+}
+.sub_planner
+{
+    width: 85%;
+    height: 420px;
+    padding-left: 12%;
+    margin:0;
+    position:relative;  
+}
+.planner_element h1
+{
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    
+}
+.planner_element--modifier
+{
+    width: 5%;
+    height: 60px;
+    border-radius: 5px;
+    clear: both;
+    top: 83%;
+    left: 47%;
+    position: absolute;
+    background-color: #1ED65B;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+.planner_element--modifier:hover
+{
+    cursor: pointer;
+}
+.addtask
+{
+    width: 25%;
+    height: 230px;
+    border: 1px solid white;
+    background-color: #19D17E;
+    opacity: 0.9;
+    transition-duration: 1s;
+    border-radius: 8px;
+    position: fixed;
+    top: 900px;
+    left: 36%;
+
+}
+._addtask
+{
+    width: 30%;
+    height: 250px;
+    top: 150px;
+    left: 36%;
+}
+.addtask_element--modifier
+{
+    width: 25%;
+    height: 40px;
+    background-color: #FC4700;
+    border-radius: 3px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 16%;
+    padding-left: 5%;
+    padding-top: 20px;
+    cursor: pointer;
+    float: left;
+}
+.addtask_element--modifier_
+{
+    width: 17%;
+    height: 40px;
+    background-color: black;
+    float: left;
+    border-radius: 3px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15%;
+    padding-left: 5%;
+    padding-top: 20px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.texttask
+{
+    width: 50%;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 26%;
+    color: grey;
+    padding-left: 3px;
+}
+.selectday
+{
+    clear:both;
+    margin-top: 30px; 
+    margin-left: 33%;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    color: grey;
+    border:0px;
+    outline:0px;
+    
+}
+.task
+{
+    list-style: none;
+    color: grey;
+    padding: 0!important;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.warning
+{
+    color: brown;
+    text-align: center;
+}
